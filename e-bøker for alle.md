@@ -5,13 +5,22 @@ e-bøker for alle
 1. E-bøker for alle!
     Hei, jeg heter Jostein og kommer fra Norsk lyd- og blindeskriftbibliotek, og jeg vil fortelle litt om hvordan dere kan produsere bøker på en måte som gjør de tilgjengelige for så mange mennesker som mulig.
 2. Kort om NLB
-  - Vi gjør bøker tilgjengelige for mennesker med lesevansker. Åndsverkloven § 17a åpner for at [vi kan lage lydbøker til bruk for funksjonshemmede](http://www.nlb.no/om-nlb/fakta/organisasjonen/lovgrunnlag-aandsverkloven-17a/) uten å innhente samtykke fra rettighetshaveren på forhånd. [Lydbokavtalen](http://www.kopinor.no/rettighetshavere/individuelt-vederlag/lydboker/dokumenter/lydbokavtalen) fastsetter vilkårene for eksemplarfremstilling, distribusjon og vederlag. Med dette i ryggen kan vi produsere og distribuere et variert tilbud av lyd- og punktskrift-bøker. Vi produserer skjønnlitteratur og sakprosa for både barn, ungdom og voksne. I tillegg produserer vi studielitteratur for studenter ved høyere utdanning.
-- Vi er alle utsatt for situasjonsbetingte lesevansker `[4]` (bruk bilder for å illustrere hver av disse situasjonene)
-  - Hvis man leser på en mobiltelefon så har man kun tilgang til en liten porsjon tekst om gangen, akkurat som mennesker som zoomer mye på en datamaskin fordi de ser dårlig, og akkurat som blinde som bruker leselist.
-  - Hvis man leser ute i sola så vil man oppleve problemer med kontraster
-  - Hvis man sitter på toget og ser en video så vil man kanskje skru på undertekster for å ikke forstyrre andre, på samme måte som en døv person ville gjort det
-  - Hvis det er for mørkt til å lese, eller hvis man ikke har noen hender ledig til å holde boka, så vil man kanskje sette pris på å kunne veksle mellom lyd-versjonen og tekst-versjonen av boka
-  - Hvis man prøver å lære å lese et språk, så kan det være greit å både høre og se teksten samtidig
+    - Vi er et offentlig bibliotek som produserer og låner ut **lydbøker** og **punktskriftbøker**.
+    - Tilbudet er for alle som strever med å lese trykt tekst, enten det skyldes dysleksi, synsvansker eller andre funksjonsnedsettelser som gjør det vanskelig å lese.
+    - Vi har lånere fra hele landet, og tilbudet er gratis.
+    - Vi produserer skjønnlitteratur og sakprosa for både **barn, ungdom og voksne**.
+    - I tillegg produserer vi studielitteratur for studenter ved høyere utdanning.
+3. Vi er alle utsatt for situasjonsbetingte lesevansker
+  - Hvis man leser på en **mobiltelefon** så har man kun tilgang til en liten porsjon tekst om gangen. Da har man den samme utfordringen som de som ser dårlig og trenger å forstørre teksten på PC-skjermen. Det er også samme utfordring som de som er blinde har når de leser punktskrift.
+  - Hvis det blir for **mørkt** til å lese, så vil man kanskje sette pris på å kunne veksle mellom tekst-versjonen av boka og lydboka. Da har man den samme utfordringen som de som er tilnærmet eller helt blinde.
+  - Hvis man leser ute **i sola** så vil man oppleve problemer med kontraster. Det er stor variasjon i lysforhold og skjermkvalitet der folk leser. God kontrast er viktig for folk med fargeblindhet og for de med nedsatt kontrastfølsomhet, som vanligvis følger med aldring.
+  - Hvis man sitter **på toget** og leser en nettavis så vil mange unngå å se videoer de kommer over for å ikke forstyrre medpassasjerene. Hvis videoen hadde hatt undertekster så ville det vært greit å se videoen med lyden avslått. Dette ville også gjort videoen mer tilgjengelig for døve og tunghørte.
+  - Hvis man ikke har noen hender ledig til å holde boken man leser, for eksempel hvis man er **ute og løper**, så vil det være praktisk å lese lydboka istedenfor. Det samme er tilfellet hvis man har en funksjonsnedsettelse som gjør det vanskelig å bruke henda.
+  - Hvis man prøver å **lære seg et nytt språk eller fagfelt**, så kan det være greit å både høre og se teksten samtidig for å lære hvordan ordene høres ut.
+4. De fleste har på et tidspunkt også hatt en funksjonsnedsettelse
+  - 17 % av Norges befolkning er registrert med en funksjonsnedsettelse i følge tall fra SSB.
+  - Men de fleste har eller har hatt en funksjonsnedsettelse.
+
 
 > Statistisk sentralbyrå har funnet ut at det er omtrent 17 % av norges befolkning mellom 16 og 66 år som har registrert en form for funksjonsnedsettelse, enten midlertidig eller varig. Dette utgjør omtrent 500 000 mennesker i Norge.
 >
