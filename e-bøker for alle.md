@@ -1,7 +1,6 @@
 e-bøker for alle
 ================
 
-
 1. E-bøker for alle!
     Hei, jeg heter Jostein og kommer fra Norsk lyd- og blindeskriftbibliotek, og jeg vil fortelle litt om hvordan dere kan produsere bøker på en måte som gjør de tilgjengelige for så mange mennesker som mulig.
 
@@ -118,35 +117,3 @@ e-bøker for alle
 14. Hva NLB ønsker fra forlag
   - Vi i NLB ønsker oss fortrinnsvis EPUB. Vi kan også godta InDesign- eller Word-filer, og til-og-med PDF-filer (helst PDF/UA eller PDF/A), men vi bruker EPUB i produksjonssystemene våre når vi leser inn lyd eller konverterer til punktskrift.
   - Dagens situasjon for bøker hvor vi ikke får filer fra forlag er at vi kjøper inn den fysiske boka, kutter den opp, og skanner inn alle sidene some PDF. Deretter bruker vi eksterne leverandører for å gjøre om disse PDFene til EPUB. Hvis vi får EPUB direkte fra forlag så slipper vi dette ekstraarbeidet.
-
---------------------
-
-TODO:
-- Bruke som bakgrunnsfarge: `abdae4`
-- Få inn NLBs logo et sted
-
-Litt bakgrunnsstoff:
- 1. [EPUB 3 Best Practices](http://shop.oreilly.com/product/0636920024897.do)
- 2. [Web og Universell Utforming](http://www.universitetsforlaget.no/nettbutikk/web-og-universell-utforming-uf.html)
- 3. [uu-skolen for nettsider](http://uu.difi.no/veiledning/nettsider/uu-skolen/bilder-og-grafikk)
- 4. [EPUB 3 Accessibility Guidelines](http://www.idpf.org/accessibility/guidelines/)
-
-Note to self:
-
-- prøv å bruk "nudges"
-  - få forlag og e-bokprodusenter til å inkludere alt-tekster på bilder
-  - få forlag til å inkludere metadata om tilgjengelighet
-
-NLBs fargekoder:
-- Gul: `fff218`
-- Brun: `e1962f`
-- Oransje: `f37031`
-- Rød: `c32123`
-- Magenta: `dc0099`
-- Lilla: `c129d2`
-- Blå: `00bbe4` - med 25% saturation istedenfor 100%: `abdae4`
-- Lysegrønn: `a6ce39`
-- Mørkegrønn: `0d8204`
-
-
-grønn kode: #246b00
