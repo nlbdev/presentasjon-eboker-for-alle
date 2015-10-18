@@ -68,7 +68,7 @@ e-bøker for alle
   - epub:type
   - Sidenummer `[4]`
 
-10. Bilder og grafikk `[4]`
+10. Bilder `[4]`
 
 11. Tabeller `[4]`
 
@@ -80,6 +80,12 @@ e-bøker for alle
   - Hvis det brukes flere språk i teksten så kan lang attributten si ifra til talesyntesen at den skal bruke riktig språk til å lese høyt
 
 15. Leserekkefølge `[4]` (grafisk fremstilling av leserekkefølgen på en eller annen måte? tegne piler over teksten?)
+  - Bøker har en hovedfortelling som leserne forventes å følge fra begynnelse til slutt, og det er viktig å kunne navigere uavbrutt i denne fortellingen.
+  - De fleste bøker inneholder en viss grad av supplerende opplysninger blandet inn i hovedfortellingen.
+  - For eksempel sidetall, fotnoter, referanser, faktabokser, tabeller, figurer, diagrammer og lignende.
+  - Disse elementene må være markert opp på en måte som indikerer at det ikke er en del av hovedfortellingen.
+  - Hvis dette er gjort riktig, så kan den som leser boka enkelt velge å for eksempel hoppe over store tabeller og figurer med detaljerte beskrivelser.
+  - 
 
 16. Sekundært innhold (bruke f.eks. `<figure>` for å markere innhold som ikke tilhører det primære innholdet / hovedfortellingen) `[4]`
 
