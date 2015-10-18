@@ -49,6 +49,14 @@ e-bøker for alle
   - "Løsningsforslag for web", utformet av Difi - Direktoratet for forvaltning og IKT. Her ligger det mye konkret informasjon om hvordan innhold kan merkes opp. Det er en veldig god ressurs som jeg varmt kan anbefale, og som jeg kommer til å hente litt fra videre i denne presentasjonen.
   - TODO: bør si noe om lite tilgjengelige nettbutikker her kanskje? Vanskelig å kjøpe bøker.
 
+9. Skill mellom innhold og utseende
+  - Det visuelle uttrykket er ofte det eneste e-bok-forfattere tar hensyn til når de produserer innhold.
+  - Når man produserer en e-bok er det viktig å tenke på at ikke alle kommer til å bruke boken på samme måte.
+  - Noen vil bruke en skjermleser for å få boken lest opp eller vist på en leselist.
+  - For å navigere i boken vil mange e-bok-lesere basere seg på hvordan innholdet i boken er markert opp.
+  - Dessuten vil man at boka skal vises litt forskjellig hvis man skriver den ut på papir.
+  - Og en godt oppmerket bok gjør det enkelt å produsere en lydbok-versjon og en punktskrift-versjon av boka, mer eller mindre automatisk.
+
 7. Det må være tydelig forskjell mellom overskrifter av ulike nivå
   - I denne innholdsfortegnelsen refereres det til en overskrift på øverste nivå; nivå 1, flere overskrifter på nivå 2, og et par overskrifter på nivå 3.
 
@@ -57,9 +65,6 @@ e-bøker for alle
   - Jeg har sett eksempler der alt i boken er markert opp som avsnitt, til og med overskriften. Jeg har også sett eksempler på at overskriftene er bilder.
   - Hvis overskriftene ikke merkes opp som overskrifter, så vil det ikke være mulig å navigere mellom kapitler når man navigerer med tastaturet, eller hvis man bruker innholdsfortegnelsen som blir generert av noen lesesystemer.
 
-9. Skille innhold og presentasjon
-  - Det visuelle uttrykket er ofte det eneste e-bok-forfattere tar hensyn til når de produserer innhold.
-  - Ved 
 
 9. Skille innhold og presentasjon `[4]`
   - `<em>`, `<strong>`, `<i>` og `<b>` kontra `font-style: italic` og `font-weight: bold` `[4]`
