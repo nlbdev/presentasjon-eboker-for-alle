@@ -130,3 +130,5 @@ NLBs fargekoder:
 - Lysegrønn: `a6ce39`
 - Mørkegrønn: `0d8204`
 
+
+grønn kode: #246b00
