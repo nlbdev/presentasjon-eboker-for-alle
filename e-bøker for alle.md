@@ -49,7 +49,7 @@ e-bøker for alle
   - "Løsningsforslag for web", utformet av Difi - Direktoratet for forvaltning og IKT. Her ligger det mye konkret informasjon om hvordan innhold kan merkes opp. Det er en veldig god ressurs som jeg varmt kan anbefale, og som jeg kommer til å hente litt fra videre i denne presentasjonen.
   - TODO: bør si noe om lite tilgjengelige nettbutikker her kanskje? Vanskelig å kjøpe bøker.
 
-9. Skill mellom innhold og utseende
+7. Skill mellom innhold og utseende
   - Det visuelle uttrykket er ofte det eneste e-bok-forfattere tar hensyn til når de produserer innhold.
   - Når man produserer en e-bok er det viktig å tenke på at ikke alle kommer til å bruke boken på samme måte.
   - Noen vil bruke en skjermleser for å få boken lest opp eller vist på en leselist.
@@ -57,52 +57,65 @@ e-bøker for alle
   - Dessuten vil man at boka skal vises litt forskjellig hvis man skriver den ut på papir.
   - Og en godt oppmerket bok gjør det enkelt å produsere en lydbok-versjon og en punktskrift-versjon av boka, mer eller mindre automatisk.
 
-7. Det må være tydelig forskjell mellom overskrifter av ulike nivå
+8. Bruk riktige elementer
+  - hvis du trenger en liste, bruk liste-elementene
+  - hvis du trenger en tabell, bruk tabell-elementene
+
+9. Det må være tydelig forskjell mellom overskrifter av ulike nivå (TODO: ikke glidende animasjon mot neste slide)
   - I denne innholdsfortegnelsen refereres det til en overskrift på øverste nivå; nivå 1, flere overskrifter på nivå 2, og et par overskrifter på nivå 3.
 
-8. (forts) Overskrifter på ulike nivå (TODO: ikke glidende animasjon mot neste slide)
+10. (forts) Overskrifter på ulike nivå
   - Tilsvarende i selve innholdet så må overskriften på nivå 1 markeres opp med HTML-taggen `h1`, overskriften på nivå 2 må markeres opp med HTML-taggen `h2`, og så videre.
   - Jeg har sett eksempler der alt i boken er markert opp som avsnitt, til og med overskriften. Jeg har også sett eksempler på at overskriftene er bilder.
   - Hvis overskriftene ikke merkes opp som overskrifter, så vil det ikke være mulig å navigere mellom kapitler når man navigerer med tastaturet, eller hvis man bruker innholdsfortegnelsen som blir generert av noen lesesystemer.
 
-
-9. Skille innhold og presentasjon `[4]`
-  - `<em>`, `<strong>`, `<i>` og `<b>` kontra `font-style: italic` og `font-weight: bold` `[4]`
-
-8. epub:type `[4]`
-  - epub:type
-  - Sidenummer `[4]`
-
-10. Bilder `[4]`
-
-11. Tabeller `[4]`
-
-12. Fotnoter `[4]`
-
 13. Fargebruk og kontrast (visuelle eksempler på god og dårlig kontrast i presentasjonen)
 
-14. Språk `[4]`
+14. Språk
   - Hvis det brukes flere språk i teksten så kan lang attributten si ifra til talesyntesen at den skal bruke riktig språk til å lese høyt
 
-15. Leserekkefølge `[4]` (grafisk fremstilling av leserekkefølgen på en eller annen måte? tegne piler over teksten?)
+16. Sekundært innhold
   - Bøker har en hovedfortelling som leserne forventes å følge fra begynnelse til slutt, og det er viktig å kunne navigere uavbrutt i denne fortellingen.
   - De fleste bøker inneholder en viss grad av supplerende opplysninger blandet inn i hovedfortellingen.
   - For eksempel sidetall, fotnoter, referanser, faktabokser, tabeller, figurer, diagrammer og lignende.
   - Disse elementene må være markert opp på en måte som indikerer at det ikke er en del av hovedfortellingen.
   - Hvis dette er gjort riktig, så kan den som leser boka enkelt velge å for eksempel hoppe over store tabeller og figurer med detaljerte beskrivelser.
-  - 
 
-16. Sekundært innhold (bruke f.eks. `<figure>` for å markere innhold som ikke tilhører det primære innholdet / hovedfortellingen) `[4]`
+8. epub:type
+  - HTML har et relativt begrenset sett med elementer.
+  - Det kan for eksempel være hundrevis med `aside`-elementer, men man kan ikke med HTML angi forskjellen på en fotnote og en faktaboks.
+  - EPUB 3 har introduserte `epub:type`-attributten.
+  - Med denne kan man plukke verdier fra et standard-vokabular for å angi at et element representerer for eksempel et sideskift, eller en info-boks.
 
-17. Synkronisert tekst og lyd (eksempel; video? eller embeddet i presentasjonen? HTML-presentasjon?)
+10. Bilder
+  - Alle bilder må ha en `alt`-attributt.
+  - Ikke legg filnavnet i `alt`-attributtet.
+  - `title`-attributtet bør ikke brukes, da det hverken er tilgjengelig for skjermlesere eller for touch-skjerm-brukere.
+  - Hvis et bilde kun er dekorativt og ikke meningsbærende, så må `alt`-attributten være tom.
+  - Bilder som er en del av innholdet må ha en beskrivende tekst i `alt`-attributtet.
 
-18. Metadata
+11. Fotnoter
+  - Notereferanser og fotnoter skal merkes med henholdsvis "noteref" og "footnote".
+
+12. Synkronisert tekst og lyd (eksempel; video? eller embeddet i presentasjonen? HTML-presentasjon?)
+  - "EPUB-bøker kan inneholde en kombinasjon av lyd, tekst og bilder."
+  - Synkronisert tekst og lyd kan eksempelvis være nyttig ved lesetrening.
+
+13. Metadata
   - Det lønner seg å produsere universelt utformede e-bøker. I metadata kan man deklarere hvor tilgjengelig boken er.
-    For eksempel, hvorvidt boken inneholder tekst-alternativ for bilder og illustrasjoner, om matematiske og kjemiske formler
-    er tilgjengelige, om sidenummerering er inkludert, om innlest synkronisert lyd er inkludert, og så videre. Dette er informasjon
-    som med fordel kan gjøres tilgjengelig for kunder i en nettbokhandel eller i biblioteker når de bestiller en bok.
+  - For eksempel så kan man si:
+    + index - at boken inneholder et register
+    + printPageNumbers - at sidenummerering fra papir-versjonen er med
+    + structuralNavigation - at boken har markert opp overskrifter på riktig måte
+    + unlocked - at boken er uten DRM
+    + alternativeText - at alle bilder bruker `alt`-attributten på riktig måte
+  - Dette er informasjon som med fordel kan gjøres tilgjengelig for kunder i en nettbokhandel eller i biblioteker når de bestiller en bok.
+  - For eksempel kunne en kunde søkt etter bøker som har visse egenskaper.
+  - Kanskje man er interessert i en e-bok-versjon av en studiebok, men bare hvis den har sidetallene fra papir-versjonen lagt inn i seg.
+  - Hvis man skal velge seg en bok å lese så har man med god metadata en mulighet til å sammenligne den tekniske kvaliteten på disse før man kjøper eller låner.
+  - Det lønner seg å produsere universelt utformede e-bøker.
 
-19. Hva NLB ønsker fra forlag
+14. Hva NLB ønsker fra forlag
   - Vi i NLB ønsker oss fortrinnsvis EPUB. Vi kan også godta InDesign- eller Word-filer, og til-og-med PDF-filer (helst PDF/UA eller PDF/A), men vi bruker EPUB i produksjonssystemene våre når vi leser inn lyd eller konverterer til punktskrift.
   - Dagens situasjon for bøker hvor vi ikke får filer fra forlag er at vi kjøper inn den fysiske boka, kutter den opp, og skanner inn alle sidene some PDF. Deretter bruker vi eksterne leverandører for å gjøre om disse PDFene til EPUB. Hvis vi får EPUB direkte fra forlag så slipper vi dette ekstraarbeidet.
 
